@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="./img/lampada.png" type="image/x-icon">
+    
+   
+    <title>Lâmpada Divertida</title>
+</head>
+<body class="row sm col-12">
+        <div class="load">
+            <div class="spinner"></div>
+        </div>
+
+     <header><h1>Lâmpada Divertida</h1></header>
+<main>
+        <div>
+            <img src="img/desligada.png" id="lamp" onmouseover="turn(), light()" onmouseleave="turnoff()">
+        </div>
+       <br>
+        <div>
+            <button id="ligar">Ligar</button>
+            <button id="desligar">Desligar</button>
+        </div>
+    </main>
+   <script src="javascript.js"></script>
+   <footer>
+    <p>
+        Criado por Luiz Felipe 
+    </p>
+   </footer>
+</body>
+</html>
